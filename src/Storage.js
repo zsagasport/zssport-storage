@@ -6,10 +6,10 @@ class Storage {
 
 		switch (type) {
 			case Storage.TYPE.LOCAL:
-				this.storage = Window.localStorage || {};
+				this.storage = window.localStorage || {};
 				break;
 			case Storage.TYPE.SESSION:
-				this.storage = Window.sessionStorage || {};
+				this.storage = window.sessionStorage || {};
 				break;
 		}
 	}
