@@ -8,7 +8,7 @@
 		"node": ">=0.12.0",
 		"npm": ">=3.0.0"
 	},
-	"main": "lib/Storage.js",
+	"main": "src/Storage.js",
 	"browser": "src/Storage.js",
 	"files": [
 		"lib",
