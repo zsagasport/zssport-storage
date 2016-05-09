@@ -1,6 +1,8 @@
 'use strict';
 
-import {localStorage, sessionStorage} from '../src/Storage';
+import Storage from '../src/Storage';
+
+var localStorage = new Storage(Storage.TYPE.LOCAL);
 
 describe('localStorage', function() {
 	afterEach(function() {
