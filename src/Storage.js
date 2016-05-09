@@ -44,7 +44,4 @@ Storage.TYPE = {
 	SESSION: 'session'
 };
 
-let localStorage = new Storage(Storage.TYPE.LOCAL);
-let sessionStorage = new Storage(Storage.TYPE.SESSION);
-
 export default Storage;
